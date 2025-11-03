@@ -1,18 +1,20 @@
 body{
-    /* background-image: url(https://images.unsplash.com/photo-1662027008658-b615840c7deb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRvZG98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500); */
+    width: 100%;
+    height: 100%;
     background-image: url("./login.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.signup{
+.login{
     background: transparent;
     display: flex;
+
     flex-direction: column; 
     justify-content: center;
     align-items: center;
     
 }
-.signup h1{
+.login h1{
     display: flex;
     color: rgb(231, 12, 12);
     margin: 10px 20px ;
@@ -31,7 +33,7 @@ body{
   display: block;
   margin-bottom: 6px;
   font-weight: 600;
-  color: #0a0a0a;
+  color: #f5f0f0;
   padding: 10px 20px 10px 20px;
 }
 
@@ -47,7 +49,7 @@ body{
 .form-group input:focus {
   border-color: #2575fc;
   box-shadow: 0 0 5px rgba(37, 117, 252, 0.4);
-  /* outline: none; */
+  outline: none;
 }
 button{
 font-size: 25px;
@@ -56,6 +58,6 @@ background-color: rgb(0, 102, 255);
 border-radius: 13px;
 }
 button:hover{
-background-color: darkmagenta;
+background-color: #fff;
 }
 
